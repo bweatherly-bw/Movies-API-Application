@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
     movie_container.innerHTML = renderMovies(movies)
 });
 
+
 function renderMovies(movieArray) {
 	
 	let movieHTML = movieArray.map(function (movie) {
@@ -14,7 +15,7 @@ function renderMovies(movieArray) {
 			<div class="card-body">
 			  <h5 class="card-title">${movie.Title}</h5>
 			  <p class="card-text"${movie.Year}</p>
-			  <a href="#" class="btn btn-primary">Add to Favorites</a>
+			  <a href="#" class="btn btn-primary">Remove from Favorites</a>
 			</div>
 		  </div>
 		</div>
@@ -22,4 +23,7 @@ function renderMovies(movieArray) {
 	})
 
 	return movieHTML.join('');
+
 };
+
+  

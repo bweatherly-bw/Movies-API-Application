@@ -1,13 +1,23 @@
+html body {
+	width: 100%;
+    height: 100%;
+
+}
 body {
+	width: 100%;
+    height: 100%;
+	background-attachment: fixed;
 	background-color: #B2E9FD;
+	background-image: linear-gradient(to bottom, rgb(28, 255, 194), rgb(40, 78, 203));
+  
 }
 
 .header h2 {
-	color: #DC4247;
+	color: rgb(40, 78, 203);
 }
 
 .header p {
-	color: #50524F;
+	color: rgb(56, 86, 186);
 }
 
 .results {
